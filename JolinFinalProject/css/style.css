@@ -1,0 +1,156 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  text-align: left;
+}
+
+header,
+footer {
+  color: #aa3131;
+  background-color: #f8ffd6;
+  width: 80%;
+}
+
+.offpage {
+  position: absolute;
+  left: -1000px
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* Vertically align items in the center */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 50px;
+  /* Adjust the margin between list items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #aa3131;
+}
+
+nav img {
+  width: 10%;
+  /* Adjust the width of the images */
+  height: auto;
+  /* Maintain the aspect ratio of the images */
+  margin-right: 5px;
+  /* Adjust the margin between images and text */
+}
+
+/* nav a {
+  color: #aa3131;
+  text-decoration: none;
+}
+
+nav img {
+  width: 10%;
+} */
+
+/* li {
+  display: inline-block;
+  width: 50%;
+  justify-content: space-evenly; */
+
+
+main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 75%;
+  text-align: left;
+  background-color: #e5ffe7;
+  width: 80%;
+}
+
+
+/* ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+
+.current {
+  text-transform: uppercase;
+  background-color: #ffb3b6;
+}
+
+h1 {
+  color: #004cc7;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
+}
+
+#neighborhood_walks {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 100px 100px;
+  justify-content: space-evenly;
+}
+
+/* #parks {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  gap: 10px 10px;
+  justify-content: space-evenly;
+} */
+
+/* .grid-container {
+  display: grid;
+  gap: 100px 100px;
+  justify-content: space-evenly;
+} */
+
+/* .flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+} */
+
+#neighborhood_walks img {
+  width: 100%;
+}
+
+/* #parks img {
+  height: 100%;
+  width: 100%;
+} */
+
+#parks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#parks img {
+  width: 17%;
+  /* Set the desired width for each image */
+  height: auto;
+  /* Set the desired height for each image */
+  margin: 10px;
+  /* Adjust the margin between images */
+}
+
+
+html {
+  background-color: #ffebf2;
+  width: 80%;
+}
